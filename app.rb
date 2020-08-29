@@ -10,7 +10,7 @@ class App < Sinatra::Base
     raise params.inspect
   #   params[:name]
   #   params[:favorite_food]
-  # end
+   end
   
 
 end
