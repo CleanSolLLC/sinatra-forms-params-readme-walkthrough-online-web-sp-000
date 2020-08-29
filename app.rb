@@ -8,8 +8,7 @@ class App < Sinatra::Base
 
   post '/food' do 
     raise params.inspect
-  #   params[:name]
-  #   params[:favorite_food]
+    
    end
   
 
