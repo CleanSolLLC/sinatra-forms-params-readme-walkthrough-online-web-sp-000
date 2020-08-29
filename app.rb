@@ -7,7 +7,8 @@ class App < Sinatra::Base
   end
 
   post '/food' do 
-    "Hello World!"
+    params[:name]
+    params[:favorite_food]
   end
   
 
